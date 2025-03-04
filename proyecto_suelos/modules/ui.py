@@ -103,7 +103,7 @@ def display_results(results_df, stats):
     print("-" * 100)
     
     # Determinar las columnas a mostrar
-    display_columns = ['departamento', 'municipio', 'cultivo', 'topologia']
+    display_columns = ['Departamento', 'Municipio', 'Cultivo', 'Topografia']
     
     # Crear encabezados con espacios fijos
     header = "| " + " | ".join([col.upper().ljust(15) for col in display_columns]) + " |"
